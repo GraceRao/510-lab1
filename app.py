@@ -1,7 +1,7 @@
 import streamlit as st
 from annotated_text import annotated_text
 
-st.title("😝 Hi, I'm Grace (Jinyu) Rao，")
+st.title("😝 Hi, I'm Grace (Jinyu) Rao")
 
 annotated_text(
     ("UXUI Designer", "", "#faf"),
@@ -19,7 +19,7 @@ annotated_text(
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image('/Users/jinyurao/Downloads/Me.jpg')
+    st.image('./Photos/Me.jpg')
 
 with col2:
     st.subheader(" ")
@@ -41,10 +41,10 @@ with col2:
 st.divider()
 
 # Education
-st.header("Education")
+st.header("📖 :blue[Education]")
 st.subheader("**University of California, San Diego**")
 st.markdown("""
-2018 - 2022 | San Diego
+Sep.2018 - Sep.2022 | San Diego ☀️
 - ***B.S.*** in Cognitive Science (HCI) 
 - ***B.A.*** in Speculative Design  
 """
@@ -52,16 +52,16 @@ st.markdown("""
 st.markdown(" ")
 st.subheader("**University of Washington**")
 st.markdown("""
-2023 - 2025 | Seattle
-- M.S. in Technology Innovation   
+Sep.2023 - Mar.2025 | Seattle 🌧️
+- ***M.S.*** in Technology Innovation   
 """
 )
 
 st.divider()
 
 # Work Experience
-st.header("Work Experience")
-st.subheader("Trickle | UXUI Designer")
+st.header("🙇🏻‍♀️ :blue[Work Experience]")
+st.subheader("Trickle | :orange[UXUI Designer]")
 st.markdown("""
 Jul.2022 - Present | Shenzhen, China
 1. Standardized design system for components, text, and layout when the senior designer resigned; bridged the collaboration between design, product, and front-end teams, improving team efficiency by 25%.
@@ -72,7 +72,7 @@ Jul.2022 - Present | Shenzhen, China
 """
 )
 st.markdown(" ")
-st.subheader("GoKunming | Visual Design Intern")
+st.subheader("GoKunming | :orange[Visual Design Intern]")
 st.markdown("""
 Jul.2019 - Aug.2019 | Kunming, China
 1. Designed 3 gift box packages and bags based on company branding and identity, selected for batch production for business purposes.
@@ -84,40 +84,40 @@ Jul.2019 - Aug.2019 | Kunming, China
 st.divider()
 
 # Interesting Projects
-st.header("My Projects")
+st.header("💭 :blue[My Projects]")
 st.markdown("")
 col1, col2 = st.columns(2)
 with col1:
     st.image('/Users/jinyurao/Downloads/Portfolio/Thumbnail/Mindbud_Thumbnail.jpg')
     st.subheader("MindBud")
-    st.markdown("**Mental Health| Mobile Design | UX Research**")
+    st.markdown(":grey[**Mental Health| Mobile Design | UX Research**]")
     st.markdown("An app that leverages AI assistance to help users form supportive friendships and guide users through interactive, science-based, personalized lessons about mental health.")
 with col2:
     st.image('/Users/jinyurao/Downloads/Portfolio/Thumbnail/Sania_Thumbnail.jpg')
     st.subheader("Sania's Bakery")
-    st.markdown("**Client Project | Leadership | UX Design**")
+    st.markdown(":grey[**Client Project | Leadership | UX Design**]")
     st.markdown("A UIUX project that led a team of 4 to create the online platform for the client, Sania’s Bakery, facilitating customers to order desserts and customize cakes online. ")
 
 col3, col4 = st.columns(2)
 with col3:
     st.image('/Users/jinyurao/Downloads/Portfolio/Thumbnail/Mysophobia_Thumbnail.jpg')
     st.subheader("Mysophobia VR Game")
-    st.markdown("**VR Game | Health | Personal Project**")
+    st.markdown(":grey[**VR Game | Health | Personal Project**]")
     st.markdown("An HCI project that designed gamified exposure therapy for Mysophobia patients in VR.")
 with col4:
     st.image('/Users/jinyurao/Downloads/Portfolio/Thumbnail/PlantinO2_Thumbnail.jpg')
     st.subheader("PlantinO2")
-    st.markdown("**Speculative Design | Installation Art**")
+    st.markdown(":grey[**Speculative Design | Installation Art**]")
     st.markdown("A project that designed a portable plant-based oxygen cylinder, PlantinO2, which sustainably provides oxygen for humans to breathe in the air-polluted future (in 2060).")
 
 st.divider()
 
 # Hobbies and Interest
-st.header("Hobbies and Interest")
+st.header("🩷 :blue[Hobbies and Interest] ✨")
 
 # Art
 annotated_text(
-    ("Art", "", "#8ef"),
+    ("Art with spirit", "", "#8ef"),
 )
 col1, col2, col3 = st.columns(3)
 with col1:
