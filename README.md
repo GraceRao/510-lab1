@@ -21,3 +21,4 @@ pip install -r requirements.txt
 - How to create round corner for image
 - How to crop image using code
 - How to customize the text font
+- How to change the font size
