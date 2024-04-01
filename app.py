@@ -88,24 +88,24 @@ st.header("💭 :blue[My Projects]")
 st.markdown("")
 col1, col2 = st.columns(2)
 with col1:
-    st.image('/Users/jinyurao/Downloads/Portfolio/Thumbnail/Mindbud_Thumbnail.jpg')
+    st.image('./Photos/Mindbud_Thumbnail.jpg')
     st.subheader("MindBud")
     st.markdown(":grey[**Mental Health| Mobile Design | UX Research**]")
     st.markdown("An app that leverages AI assistance to help users form supportive friendships and guide users through interactive, science-based, personalized lessons about mental health.")
 with col2:
-    st.image('/Users/jinyurao/Downloads/Portfolio/Thumbnail/Sania_Thumbnail.jpg')
+    st.image('./Photos/Sania_Thumbnail.jpg')
     st.subheader("Sania's Bakery")
     st.markdown(":grey[**Client Project | Leadership | UX Design**]")
     st.markdown("A UIUX project that led a team of 4 to create the online platform for the client, Sania’s Bakery, facilitating customers to order desserts and customize cakes online. ")
 
 col3, col4 = st.columns(2)
 with col3:
-    st.image('/Users/jinyurao/Downloads/Portfolio/Thumbnail/Mysophobia_Thumbnail.jpg')
+    st.image('./Photos/Mysophobia_Thumbnail.jpg')
     st.subheader("Mysophobia VR Game")
     st.markdown(":grey[**VR Game | Health | Personal Project**]")
     st.markdown("An HCI project that designed gamified exposure therapy for Mysophobia patients in VR.")
 with col4:
-    st.image('/Users/jinyurao/Downloads/Portfolio/Thumbnail/PlantinO2_Thumbnail.jpg')
+    st.image('./Photos/PlantinO2_Thumbnail.jpg')
     st.subheader("PlantinO2")
     st.markdown(":grey[**Speculative Design | Installation Art**]")
     st.markdown("A project that designed a portable plant-based oxygen cylinder, PlantinO2, which sustainably provides oxygen for humans to breathe in the air-polluted future (in 2060).")
@@ -121,11 +121,11 @@ annotated_text(
 )
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.image('/Users/jinyurao/Downloads/art.jpg')
+    st.image('./Photos/art.jpg')
 with col2:
-    st.image('/Users/jinyurao/Downloads/art 2.jpg')
+    st.image('./Photos/art 2.jpg')
 with col3:
-    st.image('/Users/jinyurao/Downloads/art 3.jpg')
+    st.image('./Photos/art 3.jpg')
 
 # Pet
 annotated_text(
@@ -133,11 +133,11 @@ annotated_text(
 )
 col4, col5, col6 = st.columns(3)
 with col4:
-    st.image('/Users/jinyurao/Downloads/pet.jpg')
+    st.image('./Photos/pet.jpg')
 with col5:
-    st.image('/Users/jinyurao/Downloads/pet 2.jpg')
+    st.image('./Photos/pet 2.jpg')
 with col6:
-    st.image('/Users/jinyurao/Downloads/pet 3.jpg')
+    st.image('./Photos/pet 3.jpg')
 
 # Food
 annotated_text(
@@ -145,11 +145,11 @@ annotated_text(
 )
 col7, col8, col9 = st.columns(3)
 with col7:
-    st.image('/Users/jinyurao/Downloads/food.jpg')
+    st.image('./Photos/food.jpg')
 with col8:
-    st.image('/Users/jinyurao/Downloads/food 2.jpg')
+    st.image('./Photos/food 2.jpg')
 with col9:
-    st.image('/Users/jinyurao/Downloads/food 3.jpg')
+    st.image('./Photos/food 3.jpg')
 
 
 
